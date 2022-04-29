@@ -1,0 +1,26 @@
+@import "./vars";
+
+.image-reactions{
+    display: flex;
+    flex-direction: row;
+    padding: $p-2;
+    gap: $gap-1;
+}
+
+.image-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0px $p-2;
+    &-username{
+        font-family: $fonts-profile-comments;
+        font-size: $fs-profile-comments;
+        font-weight: $fw-profile-comments;
+        line-height: $line-h-profile-comments;
+    }
+    &-comment{
+        font-family: $fonts-chat-font;
+        font-size: $fs-chat-font;
+        font-weight: $fw-chat-font;
+        line-height: $line-h-profile-comments;
+    }
+}

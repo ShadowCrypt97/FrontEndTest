@@ -1,0 +1,38 @@
+//Fonts:
+//Font type
+$fonts-profile-name: 'Inter', sans-serif;
+$fonts-profile-location: 'Inter', sans-serif;
+$fonts-profile-comments: 'Inter', sans-serif;
+$fonts-chat-font: 'Inter', sans-serif;
+
+//Font size
+$fs-profile-name: 14px;
+$fs-profile-location: 10px;
+$fs-profile-comments: 12px;
+$fs-chat-font: 12px;
+
+//Font weight
+$fw-profile-name: 500;
+$fw-profile-location: 400;
+$fw-profile-comments: 600;
+$fw-chat-font: 400;
+
+//line-height
+$line-h-profile-comments: 14.52px;
+$line-h-chat-font: 14.52px;
+//Spacing
+//gaps
+$gap-1: 12px;
+$gap-2: 2*$gap-1;
+$gap-3: 3*$gap-1;
+$gap-4: 4*$gap-1;
+$gap-5: 5*$gap-1;
+
+//margins
+$header-margins: 15px 0px 10px 21px;
+//padding
+$p-1: 10px;
+$p-2: 2*$p-1;
+$p-3: 3*$p-1;
+$p-4: 4*$p-1;
+$p-5: 5*$p-1;

@@ -1,0 +1,18 @@
+@import "./vars";
+.comment{
+    display: flex;
+    flex-direction: row;
+    padding: $p-2;
+    &-title{
+        font-family: $fonts-profile-comments;
+        font-size: $fs-profile-comments;
+        font-weight: $fw-profile-comments;
+        line-height: $line-h-profile-comments;
+    }
+    &-text{
+        font-family: $fonts-chat-font;
+        font-size: $fs-chat-font;
+        font-weight: $fw-chat-font;
+        line-height: $line-h-profile-comments;
+    }
+}

@@ -1,0 +1,26 @@
+@import "./vars";
+.profile{
+
+    display: flex;
+    flex-direction: row;
+    gap: $gap-2;
+    align-items: center;
+
+    &-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin: $header-margins;
+    }
+    &-name{
+        font-family: $fonts-profile-name;
+        font-size: $fs-profile-name;
+        font-weight: $fw-profile-name;
+    }
+    &-location{
+        font-family: $fonts-profile-location;
+        font-size: $fs-profile-location;
+        font-weight: $fw-profile-location;
+    }
+}
+
