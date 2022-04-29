@@ -2,7 +2,7 @@
 .comment{
     display: flex;
     flex-direction: row;
-    padding: $p-2;
+    padding: 0px $p-2;
     &-title{
         font-family: $fonts-profile-comments;
         font-size: $fs-profile-comments;

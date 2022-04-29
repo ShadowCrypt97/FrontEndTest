@@ -1,3 +1,14 @@
+//***************Body********************* 
+//Colors:
+$Card-border-color: #DEDEDE;
+$Card-shadow-color: rgba(0, 0, 0, 0.14);
+//Body Card
+$Card-shadow-position: -1px 7px 8px -5px;
+$Card-border: 1px solid;
+$Card-border-radious: 5px;
+$Card-width: 527px;
+
+
 //Fonts:
 //Font type
 $fonts-profile-name: 'Inter', sans-serif;
@@ -20,6 +31,7 @@ $fw-chat-font: 400;
 //line-height
 $line-h-profile-comments: 14.52px;
 $line-h-chat-font: 14.52px;
+
 //Spacing
 //gaps
 $gap-1: 12px;
@@ -36,3 +48,5 @@ $p-2: 2*$p-1;
 $p-3: 3*$p-1;
 $p-4: 4*$p-1;
 $p-5: 5*$p-1;
+
+
