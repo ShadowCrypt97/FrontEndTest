@@ -37,6 +37,10 @@
     gap: $gap-1;
 }
 
+.heart-anim{
+    animation: heart--animation 1s linear;
+}
+
 .image-footer{
     display: flex;
     flex-direction: row;

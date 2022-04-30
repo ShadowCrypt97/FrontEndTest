@@ -7,7 +7,9 @@ async function setImages(cantidad){
         const image = document.createElement("img");
         const data = await getData("https://picsum.photos/v2/list");
         const random = getRandomInt(0,30);
-        image.setAttribute("src",data[random].download_url);
+        const temp = data[random].download_url.split("/");
+        let url = temp[0]+"\\\\"+temp[2]+"\\"+temp[3]+"\\"+temp[4]+"\\"+"2000"+"\\"+"1400";
+        image.setAttribute("src",url);
         image.setAttribute("alt","slide "+cont);
         container.appendChild(image);
     }
