@@ -35,9 +35,9 @@
         font-size: $fs-chat-font;
         line-height: $line-h-chat-font;
         text-align: right;
-        color:#3D8AFF;
+        color:$Chat-post-color;
         &:visited{
-            color:#3D8AFF;
+            color:$Chat-post-color;
         }
     }
 }
