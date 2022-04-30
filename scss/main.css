@@ -55,7 +55,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 10px 20px;
+  padding: 10px 25px;
   gap: 12px;
 }
 
@@ -67,7 +67,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 0px 20px;
+  padding: 0px 25px;
 }
 
 .image-footer-username {
@@ -92,7 +92,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 0px 20px;
+  padding: 0px 25px;
 }
 
 .comment-title {
@@ -107,5 +107,68 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 14.52px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 25px;
+}
+
+.chatbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 477px;
+  height: 55px;
+  padding: 0px 25px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: #F1F1F1;
+}
+
+.chatbox-input {
+  border-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  height: 15px;
+  width: 349px;
+  border-radius: 5px;
+  background: #F1F1F1;
+}
+
+.chatbox-input:focus, .chatbox-input:focus-visible {
+  outline: none;
+}
+
+.chatbox-post {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #3D8AFF;
+}
+
+.chatbox-post:visited {
+  color: #3D8AFF;
 }
 /*# sourceMappingURL=main.css.map */

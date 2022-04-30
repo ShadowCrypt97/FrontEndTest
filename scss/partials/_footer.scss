@@ -1,1 +1,43 @@
 @import "./vars";
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: $p-2;
+}
+.chatbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 477px;
+    height: 55px;
+    padding: 0px $p-2;
+    align-content: center;
+    align-items: center;
+    border-radius: $Chatbox-border-radius;
+    background: $Chatbox-bg;
+    &-input{
+        border-style: none;
+        font-family: $fonts-chat-font;
+        font-size: $fs-chat-font;
+        font-weight: $fw-chat-font;
+        line-height: $line-h-chat-font;
+        height: 15px;
+        width: 349px;
+        border-radius: $Chatbox-border-radius;
+        background: $Chatbox-bg;
+        &:focus, &:focus-visible{
+            outline: none;
+        }
+    }
+    &-post{
+        font-family: $fonts-chat-font;
+        font-weight: $fw-chat-post;
+        font-size: $fs-chat-font;
+        line-height: $line-h-chat-font;
+        text-align: right;
+        color:#3D8AFF;
+        &:visited{
+            color:#3D8AFF;
+        }
+    }
+}

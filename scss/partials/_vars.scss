@@ -8,6 +8,11 @@ $Card-border: 1px solid;
 $Card-border-radious: 5px;
 $Card-width: 527px;
 
+//Footer
+$Chatbox-border-radius: 5px;
+$Chatbox-bg: #F1F1F1;
+
+
 
 //Fonts:
 //Font type
@@ -27,10 +32,11 @@ $fw-profile-name: 500;
 $fw-profile-location: 400;
 $fw-profile-comments: 600;
 $fw-chat-font: 400;
+$fw-chat-post: 700;
 
 //line-height
 $line-h-profile-comments: 14.52px;
-$line-h-chat-font: 14.52px;
+$line-h-chat-font: 15px;
 
 //Spacing
 //gaps
@@ -43,7 +49,7 @@ $gap-5: 5*$gap-1;
 //margins
 $header-margins: 15px 0px 10px 21px;
 //padding
-$p-1: 10px;
+$p-1: 12.5px;
 $p-2: 2*$p-1;
 $p-3: 3*$p-1;
 $p-4: 4*$p-1;
