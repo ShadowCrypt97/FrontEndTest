@@ -22,7 +22,10 @@
         font-weight: $fw-chat-font;
         line-height: $line-h-chat-font;
         margin: 20px 0px;
-        height: 15px;
+        height: max-content;
+        resize: none;
+        overflow-y: hidden;
+        overflow-x: hidden;
         width: 349px;
         border-radius: $Chatbox-border-radius;
         background: $Chatbox-bg;
